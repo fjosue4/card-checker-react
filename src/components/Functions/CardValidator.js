@@ -7,7 +7,7 @@ export const cardValidatorFunction = num => {
     return Number(str);
   });
     console.log(cardValue);
-    
+    if(cardValue.length > 10) {
     let arr = cardValue;
     let reversedCard = [...arr].reverse();
   for (let i = 1; i < reversedCard.length; i += 2) {
@@ -24,5 +24,9 @@ export const cardValidatorFunction = num => {
       cardValid = false;
      }
      return cardValid;
+    } else {
+      return cardValid = false;
+    }
+
   
   }
