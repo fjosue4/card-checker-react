@@ -66,7 +66,7 @@ export class CardGenerator extends React.Component {
             cardValue = this.props.evaluate;
             let isValid = cardValidatorFunction(cardValue);
             return (
-                <div className="right-module validate-card" id="validate-card">
+                <div className="validate-card gen-cards-space" id="validate-card">
                 <h4 id="result">Result</h4>
                 <div className="random-cards-list results">
                     <div className="card-brand">
@@ -78,20 +78,20 @@ export class CardGenerator extends React.Component {
                         <p id="card-validity-text">{isValid ? CardResult.validText : CardResult.notValidText}</p>
                     </div>
                 </div>
-                <button className="card-generator" id="clear-input" onClick={this.assignCard}>Generate more random cards</button>
+                <button className="card-generator" id="clear-input" onClick={this.assignCard}>Check random cards</button>
             </div>
             )
         } else if (this.state.sectionNumber === 0) {
         return (
-            <div className="no-card">
+            <div className="no-card gen-cards-space">
             <h4 className="section-title"> Don't have a card to check?</h4>
             <button className="card-generator" id="generator-1" onClick={this.handleSecondSection}>Generate random cards</button>
             </div>
         )
     } else if (this.state.sectionNumber === 1) {
         return (
-        <div className="generated-card" id="generated-card">
-            <h4>Choose one of these random cards</h4>
+        <div className="generated-card gen-cards-space" id="generated-card">
+            <h4 className="section-title">Choose one of these random cards</h4>
             <div className="random-cards-list">
                 <div className="random-card">
                     <Icon icon="cib:cc-visa" className="card-icon" />

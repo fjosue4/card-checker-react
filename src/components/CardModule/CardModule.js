@@ -33,7 +33,7 @@ export class CardModule extends React.Component {
     render() {
         return (
             <div className="card-module">
-                <CardInput onClick={this.assignCard} onChange={this.evaluateCard} evaluate={this.state.evaluate} className="left-module" />
+                <CardInput onClick={this.assignCard} onChange={this.evaluateCard} evaluate={this.state.evaluate} />
                 <CardGenerator evaluate={this.state.evaluate} onClick={this.assignCard} />
             </div>
         )
