@@ -1,0 +1,38 @@
+.how-it-works{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    background-color: #F6F6F6;
+    padding: 1rem 2rem;
+    border-radius: 18px;
+}
+
+.steps {
+    display: flex;
+    align-items: flex-start;
+}
+
+.step {
+    width: 80%;
+    margin: 1rem 2rem;
+}
+
+.step h2 {
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+p {
+    font-weight: 400;
+}
+
+.link {
+    color: #1C50B5;
+}

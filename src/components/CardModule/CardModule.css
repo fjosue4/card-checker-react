@@ -1,0 +1,15 @@
+.card-module {
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    background-color: #F6F6F6;
+    padding: 6rem 2rem;
+    border-radius: 18px;
+}
+
+.left-module {
+    background-color: red;
+}

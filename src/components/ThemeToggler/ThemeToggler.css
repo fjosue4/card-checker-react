@@ -1,0 +1,20 @@
+.theme-toggler {
+    background-color: #63E6D4;
+    color: #444444;
+    padding: 0.3rem 0.8rem;
+    display: flex;
+    border-radius: 8px;
+    margin-left: 1rem;
+}
+.active {
+    background-color: #fff;
+    border-radius: 100%;
+    padding: 0.3rem;
+    margin: 0 0.2rem;
+    transition: 0.4s;
+}
+
+.inactive {
+    padding: 0.3rem;
+    margin: 0 0.2rem;
+}

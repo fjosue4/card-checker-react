@@ -1,0 +1,9 @@
+.nav-bar{
+    display: flex;
+    align-items: center;
+    margin-right: 8%;
+}
+
+a {
+    color: inherit;
+}

@@ -1,0 +1,14 @@
+header {
+    display: flex;
+    background-color: #B75454;
+    color: #fff;
+    height: 94px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 1.5rem;
+}
+h3 {
+    font-weight: 300;
+    margin-left: 8%;
+}

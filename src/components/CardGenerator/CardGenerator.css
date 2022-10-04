@@ -1,0 +1,60 @@
+.card-generator {
+    background-color: #B75454;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.4rem;
+    border-radius: 0.8rem;
+}
+
+.no-card, .generated-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-title {
+    margin-top: 0;
+}
+
+.random-card {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1rem;
+    margin-top: -1.4rem;
+}
+
+.card-icon {
+    margin-right: 1rem;
+    font-size: 1.4rem;
+}
+
+.warning {
+    color: #FF6868;
+}
+
+.success {
+    color: #2dd51f;
+}
+
+.failure {
+    color: #ff6868;
+}
+
+.success, .failure, .alert, #card-brand-logo {
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+.card-brand {
+    display: flex;
+    align-items: center;
+}
+
+.card-validity {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 1rem;
+}
