@@ -12,3 +12,34 @@ header h3 {
     font-weight: 300;
     margin-left: 8%;
 }
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    margin-right: 8%;
+}
+
+a {
+    color: inherit;
+}
+
+.theme-toggler {
+    background-color: #63E6D4;
+    color: #444444;
+    padding: 0.3rem 0.8rem;
+    display: flex;
+    border-radius: 8px;
+    margin-left: 1rem;
+}
+.active {
+    background-color: #fff;
+    border-radius: 100%;
+    padding: 0.3rem;
+    margin: 0 0.2rem;
+    transition: 0.4s;
+}
+
+.inactive {
+    padding: 0.3rem;
+    margin: 0 0.2rem;
+}

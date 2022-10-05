@@ -2,11 +2,13 @@
 
 #light {
   background-color: #fff;
+  transition: 0.2s;
 }
 
 #dark {
   background-color: #212121;
   color: #fff;
+  transition: 0.2s;
 }
 
 body, html {
@@ -21,4 +23,8 @@ h1 {
   text-align: center;
   font-weight: 400;
   margin: 3rem 0;
+} 
+
+#dark .link {
+  color: #85F8FF;
 }

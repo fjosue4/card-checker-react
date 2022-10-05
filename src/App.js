@@ -15,7 +15,7 @@ function App() {
   return (
     <ThemeContext.Provider value={{theme, setTheme}}>
     <div className='App' id={theme}>
-      <Header />
+      <Header onClick={toggleTheme}/>
       <h1>Welcome to the card checker tool!</h1>
       <CardModule />
       <HowItWorks />

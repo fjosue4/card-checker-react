@@ -110,6 +110,24 @@
     cursor: pointer;
 }
 
+
+#light #result {
+    color: #B75454;
+    transition: 0.2s;
+}
+
+#dark #result {
+    color: #63E6D4;
+    transition: 0.2s;
+}
+
+#dark .card-plaintext:hover {
+    transform: scale(1.01);
+    color: #63E6D4;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
 .gen-cards-space{
     margin-left: 4rem;
 }
