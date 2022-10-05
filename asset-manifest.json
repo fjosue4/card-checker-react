@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/card-checker-react/static/css/main.4e4decde.css",
+    "main.js": "/card-checker-react/static/js/main.235787c5.js",
+    "static/js/787.8d029701.chunk.js": "/card-checker-react/static/js/787.8d029701.chunk.js",
+    "index.html": "/card-checker-react/index.html",
+    "main.4e4decde.css.map": "/card-checker-react/static/css/main.4e4decde.css.map",
+    "main.235787c5.js.map": "/card-checker-react/static/js/main.235787c5.js.map",
+    "787.8d029701.chunk.js.map": "/card-checker-react/static/js/787.8d029701.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e4decde.css",
+    "static/js/main.235787c5.js"
+  ]
+}
