@@ -13,3 +13,12 @@
 .left-module {
     background-color: red;
 }
+
+#dark .card-module {
+    background-color: #2C2C2C;
+    color: #fff;
+  }
+
+#light .card-module{
+    background-color: #F6F6F6;
+}

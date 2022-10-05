@@ -37,3 +37,12 @@ p {
 .link {
     color: #1C50B5;
 }
+
+#dark .how-it-works {
+    background-color: #2C2C2C;
+    color: #fff;
+  }
+
+#light .how-it-works{
+    background-color: #F6F6F6;
+}
