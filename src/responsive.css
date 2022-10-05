@@ -1,4 +1,4 @@
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1400px) {
     .card-input-space {
         margin-right: 1rem !important;
     }
@@ -53,6 +53,8 @@
     .nav-bar {
         margin-right: 0 !important;
         margin-top: -0.8rem !important;
+        align-items: center;
+        justify-content: center;
     }
     header h3 {
         margin-top: 0 !important;

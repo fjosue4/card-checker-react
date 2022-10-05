@@ -17,10 +17,8 @@
 #dark .card-module {
     background-color: #2C2C2C;
     color: #fff;
-    transition: 0.2s;
   }
 
 #light .card-module{
     background-color: #F6F6F6;
-    transition: 0.2s;
 }

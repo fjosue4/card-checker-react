@@ -130,4 +130,5 @@
 
 .gen-cards-space{
     margin-left: 4rem;
+    transition: 0.2s;
 }

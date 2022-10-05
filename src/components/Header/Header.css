@@ -36,7 +36,7 @@ a {
     cursor: pointer;
 }
 
-.active {
+#light #sun-icon {
     background-color: #fff;
     border-radius: 100%;
     padding: 0.3rem;
@@ -44,7 +44,20 @@ a {
     transition: 0.4s;
 }
 
-.inactive {
+#dark #sun-icon {
+    padding: 0.3rem;
+    margin: 0 0.2rem;
+}
+
+#dark #moon-icon {
+    background-color: #fff;
+    border-radius: 100%;
+    padding: 0.3rem;
+    margin: 0 0.2rem;
+    transition: 0.4s;
+}
+
+#light #moon-icon {
     padding: 0.3rem;
     margin: 0 0.2rem;
 }
