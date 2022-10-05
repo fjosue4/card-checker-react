@@ -1,0 +1,61 @@
+@media screen and (max-width: 1300px) {
+    .card-input-space {
+        margin-right: 1rem !important;
+    }
+    .gen-cards-space {
+        margin-left: 1rem !important;
+    }
+}   
+
+@media screen and (max-width: 1000px) {
+    .card-module, .steps {
+        flex-direction: column;
+    }
+
+    .step {
+        width: 80% !important;
+        margin: 1rem !important;
+    }
+
+    .card-input-space {
+        margin-right: 0 !important;
+    }
+    .gen-cards-space {
+        margin-left: 0 !important;
+        margin-bottom: -2rem;
+    }
+}   
+
+@media screen and (max-width: 548px) {
+    html {
+        font-size: 14px;
+    }
+    h1, .footer {
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+    .gen-cards-space, .card-input-space {
+        width: 80% !important;
+    }
+
+    .card-input-space h4 {
+        text-align: center;
+    }
+
+    #card-input {
+        width: 80% !important;
+    }
+    header {
+        flex-direction: column;
+        height: 148px !important;
+        justify-content: center !important;
+    }
+    .nav-bar {
+        margin-right: 0 !important;
+        margin-top: -0.8rem !important;
+    }
+    header h3 {
+        margin-top: 0 !important;
+        margin-left: 0 !important;
+    }
+}
